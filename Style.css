@@ -1,0 +1,246 @@
+.header {
+    background: rgba(138, 144, 255, 0.7);
+    position: fixed;
+    padding: 10px 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 997;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+}
+.menu-item {
+    list-style: none;
+}
+.menu-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    padding: 20px;
+}
+
+.menu-link:hover {
+    color: rgb(49, 11, 77);
+}
+
+.section_banner {
+    background: url(banner-bg.jpg);
+    background-size: cover;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+}
+.banner {
+    margin-top: 120px;
+    padding: 120px 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner-text-header {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+.banner-text-body {
+    text-align: center;
+    padding: 10px 0;
+
+}
+.banner-text-header:hover {
+    color: black;
+}
+.banner-text-body a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+.banner-text-body span {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.section_main {
+    padding: 120px 0;
+}
+.section_header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 45px;
+    color:rgb(49, 11, 77);
+}
+
+.card-container {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-wrap {
+    padding: 15px;
+    width: 25%;
+}
+.card {
+    min-width: 255px;
+    text-align: center;
+    background-color: lavenderblush;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 0px rgba(56, 58, 52, 0.3)
+}
+
+.card-image-wrap {
+    padding: 40px;
+    border-bottom: 1px solid white
+}
+.card-image {
+    width: 100%;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+.card-detailes {
+    padding: 20px;
+    background-color:lavenderblush;
+}
+.card-button {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    background:whitesmoke;
+    color:black;
+    font-weight: 600;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+    text-transform:uppercase;
+}
+.card-button:hover {
+    border: 1px solid black;
+    background: linear-gradient(45deg, rgba(29, 29, 199, 0.05), lavender, whitesmoke)
+}
+
+.brand-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+.brand {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.brand img {
+    filter: grayscale(100%);
+    max-width: 100%;
+    height: 100%;
+}
+.brand img:hover {
+    filter: grayscale(0);
+}
+
+.footer {
+    background: url(banner-bg.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.footer-block {
+    display: flex;
+}
+.footer-column {
+    padding: 0 15px;
+}
+.footer-group-link {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.flink {
+    color: white;
+    text-decoration: none;
+}
+.footer-search {
+    display: flex;
+
+}
+.search-input {
+    padding: 0 15px;
+
+}
+.footer-search-input {
+    flex:2;
+    line-height: 38px;
+    border: none;
+    background: white;
+    font-weight: 300;
+    border-radius: 20px;
+    color: #777;
+    width: 100%;
+    padding: 0 20px;
+}
+.search-button {
+    padding: 0 15px;
+}
+.footer-search-button {
+    flex: 1;
+    background: #8a90ff;
+    line-height: 42px;
+    padding: 0 45px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.feed-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.feed-list-item{
+    width: 25%;
+}
+
+.feed-list-item img{
+    vertical-align: middle;
+    border-style: none;
+    margin: 3px;
+}
+.copyright {
+    padding: 0 15px;
+    color: whitesmoke;
+    font-weight: bold;
+}
